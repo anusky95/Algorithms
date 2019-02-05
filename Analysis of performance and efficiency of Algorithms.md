@@ -15,7 +15,7 @@
 * An algorithm which is both in O(n) and Omega(n) is said to be in theta(N)
 
 
-**  Using Quick sort to sort the arrays
+** Using Quick sort to sort the arrays
 
 Selecting a pivot is the key to success of quicksort
 Choosing the last item or first item would be fatal since if it is sorted by any chance the performance would be worse
@@ -36,6 +36,28 @@ Expected case: O(N Log N)'
 
 O(N) - Space for one array of size N
 O(N^2) - Space for array of size N X N 
+
+For loop does not always mean a O(N). A separate function having for loop calling another subfunction for addition of numbers would mean O(1) space complexity.
+
+Remember to drop the non dominant terms.
+
+O(n!) > O(2^n) > O(n^2) > O(n log n) > O(n) > O(Log n) > O(1)
+
+##### Adding the run times
+for i in range(A):
+  print(i)
+for j in range(B):
+  print(j)
+  
+Time complexity : O(A + B)
+
+##### Multiplying the run times
+for i in range(A):
+ for j in range(B):
+    print(i)
+    print(j)
+  
+Time complexity : O(A * B)
 
 
 
