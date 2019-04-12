@@ -1,0 +1,22 @@
+### Stack
+Stack is an ordered collection of items where the addition of new items and removal of existing items always takes place at the same end.
+This end is called the Top.
+The opposite end is called the Base.
+Stack follows LIFO (Last in first out) principle.
+
+Examples in everyday situations
+- Stack of books/trays 
+- Every web browser has a back button and stores URL in stack
+- Current page - Top
+- First page - Base
+- Back button (Reverse order and reach back the base)
+
+Abstract Data Type
+Type of class for objects whose behavior is defined by set of value and set of operations
+Stack operations
+1. Stack()
+2. push(item)
+3. pop()
+4. peek()
+5. isEmpty()
+6. size()
